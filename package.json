@@ -1,0 +1,18 @@
+{
+  "name": "reproduce-eslint-18184",
+  "version": "1.0.0",
+  "description": "reproduce-eslint-18184",
+  "type": "module",
+  "main": "indx.js",
+  "scripts": {
+    "test:pretty": "PRETTY=1 eslint .",
+    "test:ugly": "eslint .",
+    "test": "npm run test:pretty; npm run test:ugly"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
